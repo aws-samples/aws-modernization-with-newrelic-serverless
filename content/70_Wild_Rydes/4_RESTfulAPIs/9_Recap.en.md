@@ -14,7 +14,7 @@ weight = 99
 
 :white_check_mark: You can move on to the next module, [Observability][observability].
 
-[observability]: ../5_observability.html
+[observability]: ../5_newrelic.html
 [api-gw]: https://aws.amazon.com/api-gateway/
 [cognito]: https://aws.amazon.com/cognito/
 [lambda]: https://aws.amazon.com/lambda/

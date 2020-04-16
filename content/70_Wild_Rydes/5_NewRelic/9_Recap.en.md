@@ -8,14 +8,12 @@ weight = 99
 
 :key: [AWS Lambda][lambda]
 
-:wrench: In this module you've instrumented your Wild Rydes Lambda function to provide Observability for your application's performance and troubleshoot issues as they arise. 
-
-:star: Congratulations, you have completed the Wild Rydes Web Application Workshop! Check out our [other workshops][workshops] covering additional serverless use cases.
+:wrench: In this module you've instrumented your Wild Rydes Lambda function to provide Observability for your application's performance and troubleshoot issues as they arise.
 
 ### Next
 
-:white_check_mark: See this workshop's [cleanup guide][cleanup] for instructions on how to delete the resources you've created.
+:white_check_mark: You can move on to the next module, [Troubleshooting][troubleshooting].
 
 [workshops]: https://github.com/aws-samples/aws-serverless-workshops
-[cleanup]: ../9_cleanup.html
+[troubleshooting]: ../6_troubleshooting.html
 [lambda]: https://aws.amazon.com/lambda/
