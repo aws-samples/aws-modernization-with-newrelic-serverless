@@ -1,16 +1,14 @@
 ---
-title: "AWS Modernization Basic Setup"
+title: "AWS Serverless with New Relic One"
 chapter: true
 weight: 1
 ---
 
-# AWS Modernization Basic Setup
+# AWS Serverless with New Relic One
 
 ### Welcome
 
-<p style='text-align: left;'>
-     
-</p>
+
 
 ### Objectives
 - Learn how to create a new AWS account
