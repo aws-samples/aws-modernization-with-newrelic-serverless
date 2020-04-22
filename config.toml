@@ -55,14 +55,10 @@ url = "https://aws.amazon.com/builders-library/"
 weight = 11
 
 [[menu.shortcuts]]
-name = "<i class='far fa-lightbulb'></i> Modernizating with AWS"
+name = "<i class='far fa-lightbulb'></i> Modernization with AWS"
 url = "https://aws.amazon.com/blogs/modernizing-with-aws/"
 weight = 20
 
-[[menu.shortcuts]]
-name = "<i class='fas fa-users'></i> Partner Solutions Finder"
-url = "https://aws.amazon.com/partners/find/"
-weight = 30
 
 [markup]
   defaultMarkdownHandler = "blackfriday"
