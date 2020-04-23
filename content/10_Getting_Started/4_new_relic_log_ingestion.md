@@ -19,7 +19,6 @@ To configure the New Relic Lambda:
 
 ![Environment Variables](/images/wildrydes/environment-variables.png)
 
-1. In the environment variable section  in AWS console, set the *LICENSE_KEY* environment variable to your New Relic license key. Note: If you have multiple accounts or a master-subaccount hierarchy, ensure that the license key used corresponds to the same account connected to AWS.
+1. In the environment variable section  in AWS console, set the *NRLicenseKey* environment variable to your New Relic license key. Note: If you have multiple accounts or a master-subaccount hierarchy, ensure that the license key used corresponds to the same account connected to AWS.
 1. Set the *NRLoggingEnabled* environment variable to *true*.
-1. Copy and paste your New Relic License Key in the environment variable field labeled *NRLicenseKey*.
 1. Click the **I acknowledge that this app creates custom IAM roles and resource policies** checkbox and then click **Deploy**.
