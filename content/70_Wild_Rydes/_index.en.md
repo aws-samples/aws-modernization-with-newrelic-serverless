@@ -10,7 +10,7 @@ The application architecture uses [AWS Lambda][lambda], [Amazon API Gateway][api
 
 See the diagram below for a depiction of the complete architecture.
 
-![Wild Rydes Web Application Architecture](images/wildrydes-complete-architecture.png)
+![Wild Rydes Web Application Architecture](/images/wildrydes/wildrydes-complete-architecture.png)
 
 ### Modules
 
