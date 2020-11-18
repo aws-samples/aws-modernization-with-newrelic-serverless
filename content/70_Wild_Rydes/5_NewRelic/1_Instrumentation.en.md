@@ -39,13 +39,11 @@ weight = 10
 
 Previously in this workshop, you set up a *newrelic-log-ingestion* Lambda function. Now that you've also instrumented your Lambda function, you must link that function's CloudWatch Logs stream to the *newrelic-log-ingestion* Lambda. To do this:
 
-* Open CloudWatch and select **Log groups** in the left-hand menu, and then select the log group radio button for the *RequestUnicorn* function:
+* Open CloudWatch and select **Log groups** in the left-hand menu, and then select the log group checkbox for the *RequestUnicorn* function:
 
 ![Select Log Group](/images/wildrydes/select-log-group.png)
 
-* Select **Actions** and choose **Stream to AWS Lambda**.
+* Select **Actions** and choose **Create Lambda subscription filter**.
 * Under **Lambda function**, select the *newrelic-log-ingestion* function.
-* Click the **Next** button.
 * Set the **Log format** to *JSON*.
-* Click the **Next** button.
 * Click the **Start streaming** button.
