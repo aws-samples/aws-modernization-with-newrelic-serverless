@@ -10,7 +10,7 @@ Remove the New Relic integration policy and Lambda logging function
 **:white_check_mark: Step-by-step directions**
 
 1. Navigate to your AWS Lambda functions in region us-west-2: [Lambda functions][lambda-console].
-1. Select the radio button next to the **newrelic-log-ingestions** function
+1. Select the checkbox next to the **newrelic-log-ingestions** function
 1. From the *Actions* dropdown menu, select **Delete**
 1. Complete the function deletion process.
 1. Now, head over to the [IAM Console][iam-console] 
