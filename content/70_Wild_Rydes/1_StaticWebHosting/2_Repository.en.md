@@ -21,9 +21,9 @@ aws codecommit create-repository \
   --repository-name wild-rydes
 ```
 
-1.  Clone the template repository using `git clone --bare`.
+1.  Clone the template repository using `git clone`.
     ```
-    git clone --bare https://github.com/bls20AWS/wildRydesVue.git
+    git clone https://github.com/aws-samples/aws-serverless-webapp-workshop.git
     ```
 1. `push --mirror` to your new repository.
     ```
