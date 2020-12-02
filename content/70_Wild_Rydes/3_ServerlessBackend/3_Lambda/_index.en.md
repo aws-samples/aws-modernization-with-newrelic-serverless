@@ -12,7 +12,7 @@ AWS Lambda will run your code in response to events such as an HTTP request. In 
 
 #### High-Level Instructions
 
-Use the AWS Lambda console to create a new Lambda function called `RequestUnicorn` that will process the API requests. Use the provided [requestUnicorn.js](requestUnicorn.js) example implementation for your function code. Just copy and paste from that file into the AWS Lambda console's editor.
+Use the AWS Lambda console to create a new Lambda function called `RequestUnicorn` that will process the API requests. Use the provided [requestUnicorn.js](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-newrelic-serverless/master/content/70_Wild_Rydes/3_ServerlessBackend/3_Lambda/requestUnicorn.js) example implementation for your function code. Just copy and paste from that file into the AWS Lambda console's editor.
 
 Make sure to configure your function to use the `WildRydesLambda` IAM role you created in the previous section.
 
@@ -28,7 +28,7 @@ Make sure to configure your function to use the `WildRydesLambda` IAM role you c
 1. Select `WildRydesLambda` from the **Existing Role** dropdown.
     ![Create Lambda function screenshot](/images/wildrydes/create-lambda-function.png)
 1. Click on **Create function**.
-1. Scroll down to the **Function code** section and replace the existing code in the **index.js** code editor with the contents of [requestUnicorn.js](requestUnicorn.js).
+1. Scroll down to the **Function code** section and replace the existing code in the **index.js** code editor with the contents of [requestUnicorn.js](https://raw.githubusercontent.com/aws-samples/aws-modernization-with-newrelic-serverless/master/content/70_Wild_Rydes/3_ServerlessBackend/3_Lambda/requestUnicorn.js).
     ![Create Lambda function screenshot](/images/wildrydes/create-lambda-function-code.png)
 1. Click **"Save"** in the upper right corner of the page.
 
