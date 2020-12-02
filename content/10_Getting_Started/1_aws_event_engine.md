@@ -33,3 +33,7 @@ Use a single region for the duration of this workshop. This workshop supports th
 Please select `US West - Oregon` in the top right corner.
 
 ![Step 3](/images/getting_started/c9-step3.png)
+
+{{% notice tip %}}
+When you are ready to get started click [<i class="fas fa-arrow-circle-right"></i> HERE!](3_new_relic_integration.html)
+{{% /notice %}}
