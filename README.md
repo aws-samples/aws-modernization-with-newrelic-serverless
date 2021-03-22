@@ -1,7 +1,7 @@
 
 
-# AWSWorkshop.io base workshop 
+# AWSWorkshop.io New Relic Serverless Observabiltiy
 
-This is a base workshop.  Clone and start from this repo to create your workshop.
+Levrage New Relic Observabilty Tools to Monitor, Track and get insights on your serverless workloads
 
 
