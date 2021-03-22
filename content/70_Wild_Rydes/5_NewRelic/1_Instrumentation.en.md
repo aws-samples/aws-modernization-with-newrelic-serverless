@@ -46,4 +46,5 @@ Previously in this workshop, you set up a *newrelic-log-ingestion* Lambda functi
 * Select **Actions** and choose **Create Lambda subscription filter**.
 * Under **Lambda function**, select the *newrelic-log-ingestion* function.
 * Set the **Log format** to *JSON*.
+* Set **Subscription Filter name** to *MySubFilter*
 * Click the **Start streaming** button.
