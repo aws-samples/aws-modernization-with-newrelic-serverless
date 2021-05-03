@@ -20,7 +20,7 @@ Now, copy the commands listed below into CloudShell to instrument your Lambda fu
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-ListOrdersInCart --upgrade
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-AddToCart --upgrade
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-ListOrders --upgrade
-newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-GetCartItem --upgrade
+newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-GetCartItem --upgrade --enable-extension-function-logs
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-Checkout --upgrade
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-UpdateCart --upgrade
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-GetBook --upgrade
@@ -28,7 +28,9 @@ newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybooks
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function mybookstore-ListBooks --upgrade
 ```
 
-All future layers versions will include the Lambda extension by default.
+All future layer versions will include the Lambda extension by default.
+
+You may have noticed that the command for the *mybookstore-GetCartItem* function is slightly different.  The *--enable-extension-function-logs* flag configures the function to forward the CloudWatch Logs associated with the function to New Relic.  This is not enabled by default when instrumenting functions due to the added cost.
 
 To list your Lambda functions and verify that they are now instrumented, you can run the following command:
 
