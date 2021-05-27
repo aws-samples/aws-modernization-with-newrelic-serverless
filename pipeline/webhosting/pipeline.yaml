@@ -62,13 +62,13 @@ Resources:
                   - s3:GetObject
                   - s3:PutObject
                   - s3:GetObjectVersion
-              - Resource: !Sub arn:aws:s3:::${WebsiteBucket}/*
+              - Resource: 
+                - !Sub arn:aws:s3:::${WebsiteBucket}/*
+                - !Sub arn:aws:s3:::${WebsiteBucket}
                 Effect: Allow
                 Action:
-                  - s3:GetObject
-                  - s3:PutObject
-                  - s3:GetObjectVersion
-                  - s3:ListBucket
+                  - s3:Get*
+                  - s3:List*
               - Effect: Allow
                 Action:
                   - cloudfront:CreateInvalidation
