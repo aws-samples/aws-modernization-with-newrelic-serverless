@@ -59,11 +59,3 @@ Create your key by filling out the form on the right hand side of your screen as
 Copy your newly created key (as shown below) and paste it into the text file as well:
 
 ![Copy key](/images/enable_monitoring/copy-key.png)
-
-{{% notice note %}}
-Click [here]({{< ref "414_cloud9.md" >}}) if you are at an AWS event where the Event Engine is being used
-{{% /notice %}}
-
-{{% notice note %}}
-Click [here]({{< ref "1_install_nr_cli_cloudshell.md" >}}) if you are running this individually in your own AWS Account
-{{% /notice %}}

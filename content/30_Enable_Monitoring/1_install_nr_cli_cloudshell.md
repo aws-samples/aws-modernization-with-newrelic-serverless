@@ -4,13 +4,6 @@ chapter = false
 weight = 1
 +++
 
-
-## Installing the New Relic CLI with CloudShell
-
-{{% notice warning %}}
-If you are participating in an AWS and New Relic led workshop using EventEngine, please skip to the next section as CloudShell is not yet available within EventEngine.
-{{% /notice %}}
-
 ### Open CloudShell
 
 AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources. CloudShell is pre-authenticated with your console credentials. Common development and operations tools are pre-installed, so no local installation or configuration is required. With CloudShell, you can quickly run scripts with the AWS Command Line Interface (AWS CLI), experiment with AWS service APIs using the AWS SDKs, or use a range of other tools to be productive. You can use CloudShell right from your browser and at no additional cost.
@@ -53,4 +46,4 @@ Similarly, several AWS accounts can be linked to a New Relic account. Give each 
 
 ### Cleanup
 
-If you no longer wish for your AWS account to be connected to New Relic, simply access CloudFormation from the AWS Console and delete any stacks that begin with NewRelic.
+If you no longer wish for your AWS account to be connected to New Relic, simply access **CloudFormation** from the AWS Console and delete any stacks that begin with the name *NewRelic*.

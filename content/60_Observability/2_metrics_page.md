@@ -19,7 +19,3 @@ The **Metrics** page displays AWS Lambda data collected from CloudWatch:
 1. **Errors**: The number of times an invocation has resulted in an error.
 1. **Throttles**: The number of times a function has been throttled after hitting the service-defined limit for concurrent executions in an AWS account.
 1. **Dead letter errors**: The number of times a function was invoked via a queue, was unable to successfully run, and was left as an unfulfilled invocation request.
-
-{{% notice note %}}
-Leave this page open as it will be used again in the next section of this workshop.
-{{% /notice %}}
