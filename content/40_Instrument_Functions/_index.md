@@ -25,6 +25,8 @@ Using the names of the functions retured by the command above, copy the commands
 
 ```bash
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function PRODUCER_FUNCTION_NAME  --upgrade --enable-extension-function-logs
+```
+```bash
 newrelic-lambda layers install --nr-account-id $NR_ACCOUNT_ID --function CONSUMER_FUNCTION_NAME  --upgrade --enable-extension-function-logs
 ```
 {{% notice note %}} 
