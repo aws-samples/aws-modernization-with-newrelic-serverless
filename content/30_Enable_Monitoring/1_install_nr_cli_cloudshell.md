@@ -6,8 +6,6 @@ weight = 1
 
 ### Open CloudShell
 
-AWS CloudShell is a browser-based shell that makes it easy to securely manage, explore, and interact with your AWS resources. CloudShell is pre-authenticated with your console credentials. Common development and operations tools are pre-installed, so no local installation or configuration is required. With CloudShell, you can quickly run scripts with the AWS Command Line Interface (AWS CLI), experiment with AWS service APIs using the AWS SDKs, or use a range of other tools to be productive. You can use CloudShell right from your browser and at no additional cost.
-
 Locate and open CloudShell using the search bar in the AWS Console:
 
 ![CloudShell](/images/enable_monitoring/open-cloudshell.png)
