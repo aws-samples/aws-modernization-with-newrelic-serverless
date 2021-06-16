@@ -12,8 +12,7 @@ Your account must have the ability to create new IAM roles and scope other IAM p
 {{% /notice %}}
 
 {{% notice note %}}
-If you already have an AWS account, and have IAM Administrator access, go to 
-[Provision VPC & Cloud9]({{< ref "#provision-vpc-and-cloud9" >}})
+If you already have an AWS account, and have IAM Administrator access, you can skip this section. 
 {{% /notice %}}
 
 ## Create an account 

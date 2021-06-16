@@ -1,21 +1,39 @@
 +++
-title = "New Relic Serverless for AWS Lambda: Logs"
+title = "New Relic Serverless for AWS Lambda: Distributed Tracing"
 chapter = false
 weight = 3
 +++
 
-Now that we have intentionally instituted an error in our code and generated some traffic on our Bookstore application since implementing that error, let's take a look at how the New Relic Logs feature can help us diagnose problems like this that might occur in the real world.
+Now that we have intentionally instituted an error in our code, let's take a look at how New Relic for AWS Lambda's distributed tracing feature can help us diagnose problems like this that might occur in the real world.
 
-Hop on over to the logs page by clicking on the **Logs** link located in the navigation menu on the left side of the screen in the section labeled *MORE VIEWS* (You may have to expand this section by clicking on the *MORE VIEWS* text):
+Hop on over to the distributed tracing page by clicking on the **Distributed tracing** link located in the navigation menu on the left side of the screen in the section labeled *MONITOR*:
 
 ![Distributed Tracing](/images/distributed_tracing/distributed-tracing.png)
 
-Since New Relic Logs automatically highlights errors in log entries, you should be able to quickly scan to see where the error occured:
+New Relic automatically groups your traces by type. Click on the checkbox next to **NameError**, then click on the name of the trace group located in the *Trace groups* table at the bottom of the page: 
 
 ![Latest Trace](/images/distributed_tracing/latest-trace.png)
 
-Clicking on the line, we can see a detailed view of the log entry that quickly shows the exact line in the file the error occured on:
+Now, click on any trace in the list:
 
-![Log Error](/images/distributed_tracing/log-error.png)
+![Traces](/images/distributed_tracing/trace-list.png)
 
-Keep in mind that in addition to the curated New Relic One interfaces you have seen displayed in this workshop that allow you to analyze and solve issues with your serverless applications, ***New Relic Alerts*** can also be easily created for a more proactive approach to surfacing issues immediately when they occur. Links to additional self-paced workshops covering Alerts and many other features of the New Relic One platform can be found in the Conclusion section of this workshop. 
+Click on the span containing the error (its text will be in red), and then click **Error Details** to see the actual error thrown by the Lambda function:
+
+![ErrorDetails](/images/distributed_tracing/error-details.png)
+
+We can quickly see that we have an undefined variable named *TABLE_NAME* within our code.
+
+If you have log forwarding enabled for your function, you can click the **See logs** button at the top right to see the log entries for the function that occurred exactly when the error took place:
+
+![SeeLogs](/images/distributed_tracing/see-logs.png)
+
+We refer to this as **Logs in context**:
+
+![SeeLogs](/images/distributed_tracing/logs-in-context.png)
+
+If you'd like a second pair of eyes to help you diagnose a problem, you can click on the **Copy permalink** button near the top right hand corner of the screen:
+
+![PermaLink](/images/distributed_tracing/perma-link.png)
+
+You will notice this permalink button located on many of New Relic's curated views, allowing you to quickly and easily collaborate with other members of your organization.

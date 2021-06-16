@@ -22,7 +22,7 @@ We hope that the workshop you completed has given you a better understanding of 
 
 {{% notice warning %}}
 <p style='text-align: left;'>
-If you deployed the Bookstore application on your own AWS account, don't forget to clean up resources that were deployed as part of this workshop.
+If you deployed the example application on your own AWS account, don't forget to clean up resources that were deployed as part of this workshop.
 </p>
 {{% /notice %}}
 

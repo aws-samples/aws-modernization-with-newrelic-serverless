@@ -10,8 +10,7 @@ Please note that it can take up to 5 minutes after *initially* generating traffi
 
 New Relic One's Summary page for AWS Lambda presents a quick view into your function's most important performance data.
 
-Let's give it a look by navigating to the [New Relic One website](http://one.newrelic.com) and hovering on **Explorer** near the top left hand side of the screen.  This should reveal a search bar; in the search bar, type in **GetCartItem**.  This should present you with one of the Lambda functions we instrumented earlier in this workshop.  Click on **mybookstore-GetCartItem** to access the Summary page for this function:
-
+Let's give it a look by navigating to the [New Relic One website](http://one.newrelic.com) and hovering on **Explorer** near the top left hand side of the screen.  This should reveal a search bar; in the search bar, type in **producer**.  This should present you with one of the Lambda functions we instrumented earlier in this workshop.  Click on the function name to access its Summary page:
 
 ![New Relic One](/images/observability/entity-explorer.png)
 
