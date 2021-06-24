@@ -18,7 +18,7 @@ We hope that the workshop you completed has given you a better understanding of 
 ### Next Steps
 * Learn more about the New Relic One platform and the other products New Relic provides such as Browser, Synthetics, and Logs: [New Relic One](https://newrelic.com/platform)
 * Learn more about New Relic's serverless monitoring capabilities: [New Relic Serverless](https://newrelic.com/products/serverless-aws-lambda)
-* If you'd like to dive further into New Relic, we have a number of additional labs available on our [Partner Enablement website](http://partners.newrelic-es.com/).
+* If you'd like to dive further into New Relic, we have a number of additional labs available on [New Relic University](http://learn.newrelic.com/).
 
 {{% notice warning %}}
 <p style='text-align: left;'>
