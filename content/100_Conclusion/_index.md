@@ -15,10 +15,14 @@ New Relic Serverless for AWS Lambda is a set of features that let you monitor, v
 
 We hope that the workshop you completed has given you a better understanding of AWS Lambda, why Observability is important, and how New Relic Serverless for AWS Lambda can meet your organization's serverless monitoring needs.
 
+### Survey
+
+To help us improve this product, please take some time to fill out the {{% button href="https://pages.awscloud.com/awsmp-wsm-dev-workshop-series-csat-lab-completion.html?trk=lab_newrelic" icon="fas fa-poll" %}}Survey{{% /button %}}
+
 ### Next Steps
 * Learn more about the New Relic One platform and the other products New Relic provides such as Browser, Synthetics, and Logs: [New Relic One](https://newrelic.com/platform)
 * Learn more about New Relic's serverless monitoring capabilities: [New Relic Serverless](https://newrelic.com/products/serverless-aws-lambda)
-* If you'd like to dive further into New Relic, we have a number of additional labs available on our [Partner Enablement website](http://partners.newrelic-es.com/).
+* If you'd like to dive further into New Relic, we have a number of additional labs available on [New Relic University](http://learn.newrelic.com/).
 
 {{% notice warning %}}
 <p style='text-align: left;'>
