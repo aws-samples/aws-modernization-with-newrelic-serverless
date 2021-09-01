@@ -5,10 +5,11 @@ weight = 10
 +++
 
 # Getting Started
-{{% notice note %}}
-Click [here]({{< ref "1_aws_event_engine.md" >}}) if you are at an AWS event where the Event Engine is being used
-{{% /notice %}}
 
-{{% notice note %}}
-Click [here]({{< ref "2_aws_account.md" >}}) if you are running this individually in your own AWS Account
-{{% /notice %}}
+This workshop requires an AWS account where there is IAM user/identity that has proper permissions to set up the necessary AWS components to work through the workshop. Worried about costs associated with this workshop? Don’t worry, there’s a page that will allow you to request for AWS credits to pay for any costs incurred through this workshop!
+
+Here is a preview of what we will be setting up:
+
+* Creating an AWS account with proper permissions
+* Sign up for New Relic via AWS Marketplace
+* Requesting AWS credit from AWS Marketplace
