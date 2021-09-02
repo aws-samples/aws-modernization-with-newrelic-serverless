@@ -4,10 +4,6 @@ chapter = true
 weight = 30
 +++
 
-{{% notice note %}}
-To continue this workshop, a New Relic account is required.  A new account is recommended and can be created by clicking [here](https://newrelic.com/signup)
-{{% /notice %}}
-
 ## Serverless Monitoring for AWS Lambda
 
 Serverless monitoring for AWS Lambda offers in-depth performance monitoring for your Lambda functions. When you enable serverless monitoring using our Lambda extension, this is what happens:
