@@ -27,6 +27,18 @@ available while supplies last.
 
 </tr>
 </table>
+<table class="credit" style="width:100%">
+<tr class="credit">
+  <td class="credit" style="width:40%"> 
+      <a href="https://aws.amazon.com/marketplace/pp/prodview-ov56chowabeb4?trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace" target="_blank"><img src="/images/new-relic-mp-badge.png"></a>
+  </td>
+
+  <td class="credit" style="width:60%">
+
+  </td>
+
+</tr>
+</table>
 
 
 <table class="credit">

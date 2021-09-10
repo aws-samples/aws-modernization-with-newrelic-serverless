@@ -25,3 +25,6 @@ In this workshop you will learn how to connect your AWS account to New Relic and
 The examples and sample code provided in this workshop are intended to be consumed as instructional content. These will help you understand how various AWS services can be architected to build a solution while demonstrating best practices along the way. These examples are not intended for use in production environments.
 </p>
 {{% /notice %}}
+
+
+<a href="https://aws.amazon.com/marketplace/pp/prodview-ov56chowabeb4?trk=el_a134p000003yrYeAAI&trkCampaign=AWSMP_pdp_dev_x_dg&sc_channel=el&sc_campaign=el_awsmp_mult&sc_outcome=Marketplace" target="_blank"><img src="/images/new-relic-mp-badge.png"></a>
