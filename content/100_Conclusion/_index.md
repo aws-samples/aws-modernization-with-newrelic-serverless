@@ -25,9 +25,9 @@ To help us improve this product, please take some time to fill out the {{% butto
 * If you'd like to dive further into New Relic, we have a number of additional labs available on [New Relic University](http://learn.newrelic.com/).
 
 {{% notice warning %}}
-<p style='text-align: left;'>
-If you deployed the example application on your own AWS account, don't forget to clean up resources that were deployed as part of this workshop.
-</p>
+
+If you deployed the example application on your own AWS account, don't forget to clean up resources that were deployed as part of this workshop. You can run `cdk destroy` to cleanup all the resources that were created as a part of this workshop.
+
 {{% /notice %}}
 
 [lambda]: https://aws.amazon.com/lambda/
